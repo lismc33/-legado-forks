@@ -60,12 +60,20 @@ gedoor/legado（原版，作者停更）
 | 继承 | 原版 gedoor/legado |
 | 说明 | 在原版基础上新增更多功能，为书源带来更多可能性 |
 
-**版本类型：**
+**最近更新：**
 
-| 类型 | 包名 | 说明 |
-|------|------|------|
-| beta（测试版） | `io.legado.app`（同原版） | 可覆盖原版安装，更新频繁 |
-| plus（正式版） | 共存包名 | 不覆盖原版，稳定阶段才更新 |
+| 版本号 | 日期 | 类型 | 更新内容 |
+|--------|------|------|---------|
+| 3.26.032122 | 2026-03-21 | Pre-release | 优化发现结果无障碍；支持视频播放简介的web渲染；低安卓上图标圆角 |
+| 3.26.030717 | 2026-03-07 | Stable | 优化代码，修复问题 |
+| 3.26.030223 | 2026-03-02 | Stable | 视频悬浮窗播放系统媒体通知；净化规则js支持java.log；代码编辑器搜索替换支持$符号；优化书架滚动位置记忆；自动检查app更新 |
+
+**版本类型与 APK 分发：**
+
+| APK 文件名格式 | 包名 | 说明 |
+|---------------|------|------|
+| `legado_beta_*_release.apk` | `io.legado.app`（同原版） | 覆盖原版安装，更新频繁 |
+| `legado_plus_*_releaseS.apk` | 共存包名 | 不覆盖原版，稳定阶段更新 |
 
 **社区：**
 
@@ -75,7 +83,7 @@ gedoor/legado（原版，作者停更）
 | Discord | [加入](https://discord.gg/VtUfRyzRXn) |
 | 微信公众号 | legado_plus |
 
-**下载：** [Gitee Releases](https://gitee.com/lyc486/legado/releases)
+**下载：** [GitHub Releases](https://github.com/Luoyacheng/legado/releases) / [Gitee Releases](https://gitee.com/lyc486/legado/releases)
 
 ### 4. R版
 
@@ -92,12 +100,19 @@ gedoor/legado（原版，作者停更）
 - 优化发现页与订阅源页（统一源选择、订阅内容搜索、纯 URL 订阅源、合并入口）
 - 改进漫画和视频体验（漫画阅读控件、视频直达播放页、详情/目录信息展示）
 
-**版本类型：**
+**最近更新：**
 
-| 类型 | 包名 | 说明 |
-|------|------|------|
-| beta（测试版） | `io.legado.app`（同原版） | 可覆盖原版安装，更新频繁 |
-| plus（正式版） | 共存包名 | 不覆盖原版，稳定阶段才更新 |
+| 版本号 | 日期 | 类型 | 更新内容 |
+|--------|------|------|---------|
+| 3.26.060703 | 2026-06-06 | Stable | 提升发现页封面缓存命中率；调整音频/视频缓存存储位置；优化视频加载与播放；修复书架默认分组无法重命名 |
+| 3.26.060303 | 2026-06-02 | Stable | 修复TTS异常停顿；视频无缝切换；新增缓存统计功能；备份与恢复项目选择功能 |
+| 3.26.052908 | 2026-05-29 | Stable | 导出书籍自动移除段评；AudioBook新增快进/快退；优化TTS体验；修复主题编辑图片问题 |
+
+**APK 分发：**
+
+| APK 文件名格式 | 说明 |
+|---------------|------|
+| `legado_app_3.26.*_*.apk` | 单一 APK，无 beta/plus 区分 |
 
 **社区：**
 
@@ -117,13 +132,30 @@ gedoor/legado（原版，作者停更）
 | 继承 | Sigma版（Luoyacheng/legado） |
 | 说明 | 在 Sigma 基础上继续增强，功能最多最全 |
 
-**版本类型：**
+**最近更新（主仓库 youfengknight）：**
 
-| 类型 | 包名 | 说明 |
-|------|------|------|
-| appLegacy版 | `io.legado.app`（同原版） | 可覆盖原版安装 |
-| appMax版 | `io.legado.app.yuedu` | 共存包名 |
-| appS版 | `io.legado.app.yuedu.a` | 共存包名 |
+| 版本号 | 日期 | 类型 | 更新内容 |
+|--------|------|------|---------|
+| beta-3.26.061408 | 2026-06-14 | Pre-release | 修复底栏编辑界面无法滚动；高亮规则编辑界面开关颜色修复 |
+| beta-3.26.060522 | 2026-06-05 | Pre-release | 增加java/Android API文档；帮助文档管理器支持自定义文档；修复复用WebView搜索页空白 |
+
+**最近更新（复刻仓库 Suml-1，更新更频繁）：**
+
+| 版本号 | 日期 | 类型 | 更新内容 |
+|--------|------|------|---------|
+| beta-3.26.061522 | 2026-06-15 | Pre-release | 修复列表布局下作者/当前章节/最新章节行间距不一 |
+| beta-3.26.061513 | 2026-06-15 | Pre-release | 无底栏管理；修复屏蔽规则持久化及订阅源崩溃；修复横竖屏切换章节内容显示不全 |
+| beta-3.26.061500 | 2026-06-14 | Pre-release | 书架布局新增书籍外边框显示开关并优化列表间距 |
+
+**版本类型与 APK 分发：**
+
+| APK 文件名格式 | 包名 | 说明 |
+|---------------|------|------|
+| `legado_beta_*_release.apk` | `io.legado.app.yuedu` | 主 Max 版，共存安装 |
+| `legado_compat_*_legacy.apk` | `io.legado.app`（同原版） | 兼容版，可覆盖原版安装 |
+| `legado_plus_*_releaseS.apk` | `io.legado.app.yuedu.a` | 另一个共存包名 |
+
+> 复刻版 Suml-1/Legado_Max 的 APK 分发格式完全相同，版本号更新更频繁（如 `beta-3.26.061522`）。
 
 **特色功能：**
 - **阅读体验增强** — 翻页速度自由调节、页眉页脚字体独立调节、波浪线/虚线下划线
@@ -168,11 +200,25 @@ gedoor/legado（原版，作者停更）
 - Android 12 以下设备暂不支持自定义主题与动态取色
 - 书架分组备份数据格式与其他版本不兼容（Max 版已明确说明此问题）
 
+**APK 分发（按 CPU 架构）：**
+
+| APK 文件名格式 | 说明 |
+|---------------|------|
+| `legado-3.26.*-beta.*-arm64-v8a.apk` | 64 位设备（推荐大多数现代手机） |
+| `legado-3.26.*-beta.*-armeabi-v7a.apk` | 32 位设备 |
+| `legado-3.26.*-beta.*-noR8-arm64-v8a.apk` | 64 位无混淆版（用于崩溃调试） |
+| `legado-3.26.*-beta.*-noR8-armeabi-v7a.apk` | 32 位无混淆版（用于崩溃调试） |
+| `legado-3.26.*-beta.*-noR8.apk` | 通用无混淆版 |
+| `legado-3.26.*-beta.*.apk` | 通用版 |
+
+> **noR8** 变体关闭了代码混淆与压缩，若遇到崩溃问题请使用它收集日志反馈给开发者。
+
 **社区：**
 
 | 平台 | 链接 |
 |------|------|
 | Telegram | [Legado with MD3](https://t.me/materado) |
+| Telegram 反馈群 | [加入](https://t.me/+Yn1_v5PZqddmMjQ1) |
 
 **下载：** [GitHub Releases](https://github.com/HapeLee/legado-with-MD3/releases)
 
@@ -188,12 +234,12 @@ gedoor/legado（原版，作者停更）
 | 创建 | 2025年10月31日 |
 | 说明 | 社区团队接手原版代码的延续维护版，以依赖升级和小幅修复为主 |
 
-**版本类型：**
+**版本类型与 APK 分发：**
 
-| 类型 | 包名 | 说明 |
-|------|------|------|
-| release | `io.legado.app`（同原版） | 可覆盖原版安装 |
-| releaseA | `com.legado.app.releaseA` | 共存包名 |
+| APK 文件名格式 | 包名 | 说明 |
+|---------------|------|------|
+| `legado_app_*_release.apk` | `io.legado.app`（同原版） | 覆盖原版安装 |
+| `legado_app_*_releaseA.apk` | `com.legado.app.releaseA` | 共存版，不覆盖原版 |
 
 **版本号示例：** 3.26.052802（2026年5月28日构建）
 
@@ -241,15 +287,16 @@ gedoor/legado（原版，作者停更）
 
 ## 包名速查表
 
-| 版本 | 覆盖原版包名 | 共存包名 |
-|------|-------------|---------|
-| 原版 | `io.legado.app` | — |
-| Sigma/lyc beta | `io.legado.app` | plus 版有 |
-| R beta | `io.legado.app` | plus 版有 |
-| Max appLegacy | `io.legado.app` | `io.legado.app.yuedu` / `io.legado.app.yuedu.a` |
-| LegadoTeam release | `io.legado.app` | `com.legado.app.releaseA` |
-| Archive版 | 不能覆盖（包名/签名已变） | — |
-| MD3版 | 包名同原版但签名可能不同 | — |
+| 版本 | 覆盖原版 APK | 包名 | 共存 APK | 共存包名 |
+|------|-------------|------|---------|---------|
+| 原版 | — | `io.legado.app` | — | — |
+| Sigma/lyc | `legado_beta_*_release.apk` | `io.legado.app` | `legado_plus_*_releaseS.apk` | 共存包名 |
+| R版 | `legado_app_3.26.*_*.apk` | 单一 APK | — | — |
+| Max主仓库 | `legado_compat_*_legacy.apk` | `io.legado.app` | `legado_beta_*_release.apk` / `legado_plus_*_releaseS.apk` | `io.legado.app.yuedu` / `io.legado.app.yuedu.a` |
+| Max复刻 | `legado_compat_*_legacy.apk` | `io.legado.app` | `legado_beta_*_release.apk` / `legado_plus_*_releaseS.apk` | `io.legado.app.yuedu` / `io.legado.app.yuedu.a` |
+| LegadoTeam | `legado_app_*_release.apk` | `io.legado.app` | `legado_app_*_releaseA.apk` | `com.legado.app.releaseA` |
+| Archive版 | 不能覆盖 | 包名/签名已变 | — | — |
+| MD3版 | 按 CPU 架构分包 | 包名同原版但签名可能不同 | — | — |
 
 ## 兼容性说明
 
